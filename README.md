@@ -9,6 +9,12 @@ Execute POST and GET requests to add numbers and retrieve sum
 ### To Run unit tests use following command
 ```pytest```
 
+### To Run Integration tests use following command
+start flask application
+
+```sh app_run.sh```
+
+```python src/tests/integration/api_test.py```
 
 ###To Run main code use following command
 '''python src/main.py'''
@@ -18,3 +24,4 @@ when you start application get returns 404, then add number using post method
 each post call will sum numbers by adding existing number.
 POST call : ''' http://127.0.0.1:5000/total/10'''
 GET call: '''http://127.0.0.1:5000/total'''
+
