@@ -9,5 +9,5 @@ fi
 . venv/bin/activate
 pip install --upgrade pip
 python src/main.py
-pip install -r requirments.txt
+pip install -r requirements.txt
 /usr/bin/open http://http://127.0.0.1:5000/swagger
